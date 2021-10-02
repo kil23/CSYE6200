@@ -1,0 +1,36 @@
+package edu.neu.csye6200;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ZooAnimalAPI {
+	
+	static List<AnimalAPI> list = new ArrayList<>();
+	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		
+		sb.append(list.size() + " animals in zoo.").append("\n");
+		for (AnimalAPI animal: list) {
+			sb.append(" ").append(animal.toString()).append("\n");
+		}
+		return sb.toString();
+	}
+	
+	public static void demo() {
+		ZooAnimalAPI zooAnimalAPI = new ZooAnimalAPI();
+		AnimalAPI animal = new AnimalAPI();
+		Cat1 cat = new Cat1();
+		Dog1 dog = new Dog1();
+		Fish1 fish = new Fish1();
+		
+		
+		list.add(animal);
+		list.add(cat);
+		list.add(dog);
+		list.add(fish);
+		
+		System.out.println(zooAnimalAPI);
+	}
+}

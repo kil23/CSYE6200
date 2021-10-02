@@ -1,0 +1,15 @@
+package edu.neu.csye6200;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		ZooAnimalAPI animalAPI = new ZooAnimalAPI();
+		animalAPI.zoo();
+		
+		ZooAbstractAnimalAPI abstractAnimalAPI = new ZooAbstractAnimalAPI();
+		abstractAnimalAPI.zoo();
+		
+		ZooAnimalisticAPI animalisticAPI = new ZooAnimalisticAPI();
+		animalisticAPI.zoo();
+	}
+}

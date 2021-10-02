@@ -1,0 +1,12 @@
+package edu.neu.csye6200;
+
+public class ZooAnimalisticAPI {
+	
+	Cat3 cat = new Cat3();
+	cat.speak();
+	Dog3 dog = new Dog3();
+	dog.speak();
+	Fish3 fish = new Fish3();
+	fish.speak();
+
+}

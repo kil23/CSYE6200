@@ -1,0 +1,13 @@
+package edu.neu.csye6200;
+
+public class ZooAnimalAPI {
+	
+	public void zoo() {
+		Cat1 cat = new Cat1();
+		cat.speak();
+		Dog1 dog = new Dog1();
+		dog.speak();
+		Fish1 fish = new Fish1();
+		fish.speak();	
+	}
+}

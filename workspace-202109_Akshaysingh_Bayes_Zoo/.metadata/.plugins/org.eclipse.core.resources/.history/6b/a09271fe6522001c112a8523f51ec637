@@ -1,0 +1,19 @@
+package edu.neu.csye6200;
+
+public class AbstractCat extends AbstractAnimalAPI {
+
+	public AbstractCat() {
+		super();
+	}
+	
+	@Override
+	public String toString() {
+		return "Abstract Cat... toString()";
+	}
+
+	@Override
+	public void speak() {
+		System.out.println("This is Cat extending AbstractAnimal class.");
+	}
+
+}

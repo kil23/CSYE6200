@@ -1,0 +1,10 @@
+package edu.neu.csye6200;
+
+public class Dog2 extends AbstractAnimalAPI {
+
+	@Override
+	public void speak() {
+		System.out.println("This is Dog extending AbstractAnimal class.");
+	}
+
+}

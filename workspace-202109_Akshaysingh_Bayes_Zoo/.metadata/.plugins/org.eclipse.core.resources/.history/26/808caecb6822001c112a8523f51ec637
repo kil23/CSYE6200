@@ -1,0 +1,22 @@
+package edu.neu.csye6200;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ZooAbstractAnimalAPI {
+	
+	public static void demo() {
+		AbstractCat cat = new AbstractCat();
+		AbstractDog dog = new AbstractDog();
+		AbstractFish fish = new AbstractFish();
+		
+		List<AbstractAnimalAPI> list = new ArrayList<>();
+		list.add(cat);
+		list.add(dog);
+		list.add(fish);
+		
+		for(AbstractAnimalAPI abstractAnimalAPI : list) {
+			abstractAnimalAPI.speak();
+		}
+	}
+}

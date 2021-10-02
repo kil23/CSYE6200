@@ -1,0 +1,19 @@
+package edu.neu.csye6200;
+
+public class AnimalisticCat implements AnimalisticAPI{
+	
+	public AnimalisticCat() {
+		super();
+	}
+	
+	@Override
+	public String toString() {
+		return "Animalistic Cat... toString()";
+	}
+
+	@Override
+	public void speak() {
+		System.out.println("This is Cat implementing AnimalisticAPI interface.");
+	}
+
+}

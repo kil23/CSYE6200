@@ -1,0 +1,14 @@
+package edu.neu.csye6200;
+
+public class Cat extends AnimalAPI {
+	
+	public Cat() {
+		super();
+	}
+	
+	
+	@Override
+	public void speak() {
+		System.out.println("I am a Cat extending AnimalAPI class.");
+	}
+}

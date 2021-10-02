@@ -1,0 +1,11 @@
+package edu.neu.csye6200;
+
+public class Dog2 extends AbstractAnimalAPI {
+
+	@Override
+	public void speak() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

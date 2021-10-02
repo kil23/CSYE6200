@@ -1,0 +1,9 @@
+package edu.neu.csye6200;
+
+public class ZooAnimalAPI extends AnimalAPI {
+	
+	Cat2 cat = new Cat2();
+	cat.speak();
+	
+
+}
