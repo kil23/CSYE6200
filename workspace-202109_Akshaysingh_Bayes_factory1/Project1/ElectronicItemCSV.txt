@@ -1,0 +1,5 @@
+10,Laptop,1180
+20,Trimmer,370
+30,Mobile,460
+40,Adapter,17.6
+50,Speaker,35.42
