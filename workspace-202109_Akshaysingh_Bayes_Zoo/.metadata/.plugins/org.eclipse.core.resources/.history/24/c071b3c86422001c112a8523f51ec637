@@ -1,9 +1,0 @@
-package edu.neu.csye6200;
-
-public class Fish3 implements AnimalisticAPI{
-
-	public void speak() {
-		System.out.println("This is Fish implementing AnimalisticAPI interface.");		
-	}
-
-}
